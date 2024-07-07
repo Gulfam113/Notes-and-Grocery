@@ -8,7 +8,7 @@ function App() {
   const handleChange = (newValue) => {
     setShowTitle(newValue);
   };
-  return <div class="bg-slate-500 h-full">
+  return <div class="bg-gray-200 h-full">
     <Nevegation showTitle={showTitle} handleChange={handleChange} />
     {showTitle === 'Notes' ?
       <Notes /> :

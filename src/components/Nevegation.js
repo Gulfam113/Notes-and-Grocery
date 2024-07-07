@@ -34,10 +34,10 @@ function Nevegation({ showTitle, handleChange }) {
                 </div>
 
                 <div class="flex items-center gap-6">
-                    <button class="bg-[#a6c1ee] text-white px-5 py-2 rounded-full hover:bg-[#87acec]" onClick={() => showTitle === 'Notes' ? handleInputChange('Grocery') : handleInputChange('Notes')}>{showTitle === 'Notes' ? 'go to Grocery list' : 'go to Notes'}</button>
+                    <button class="align-middle block m-3 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-100 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" onClick={() => showTitle === 'Notes' ? handleInputChange('Grocery') : handleInputChange('Notes')}>{showTitle === 'Notes' ? 'go to Grocery list' : 'go to Notes'}</button>
                 </div>
             </nav >
-        </header>
+        </header >
     )
 }
 
